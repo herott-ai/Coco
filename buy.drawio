@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="第 1 页" id="Ic4nYJOU2K4OsF929R4N">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="suRI97onjQg72Oagfzhq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="suRI97onjQg72Oagfzhq-3" target="suRI97onjQg72Oagfzhq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="suRI97onjQg72Oagfzhq-3" target="suRI97onjQg72Oagfzhq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-3" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="suRI97onjQg72Oagfzhq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-5" value="合成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="suRI97onjQg72Oagfzhq-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-6" value="捡漏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-7" value="账户 登录密码 支付密码 藏品名 数量 价格&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="289" y="168" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-8" value="是否区分已退市" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-10" value="退市怎么做" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-11" value="未退市锁低价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-12" value="怎么实时接收用户从微信发来的账户信息，开始自动捡漏&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="43" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-17" value="输出结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-19" value="输出结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-20" value="遍历所有用户token，循环请求合成接口，多线程请求？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.146;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="suRI97onjQg72Oagfzhq-5" target="suRI97onjQg72Oagfzhq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-22" value="利用线程池，处理完一个用户，再处理下一个用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.577;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="suRI97onjQg72Oagfzhq-6" target="suRI97onjQg72Oagfzhq-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="suRI97onjQg72Oagfzhq-24" value="合成有截止上号时间，可以先将所有用户token存储数据库，即将合成时所有token读到内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="90" width="500" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
