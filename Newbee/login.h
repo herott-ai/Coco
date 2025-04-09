@@ -15,12 +15,13 @@
 #include <QCryptographicHash>
 #include <QMap>
 #include <QByteArray>
+#include <QJsonArray>
 
 class Login
 {
 public:
     Login();
-    QString submitLogin(const QString &phone, const QString &password);
+    QMap<QString, QString> submitLogin(const QString &phone, const QString &password);
 public:
       QString getRandomUserAgent();
       qint64 getTimeStamp13();

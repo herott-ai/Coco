@@ -205,7 +205,7 @@ QString Login::passSlide(const QString &imgBase64, const QString &userAgent) {
     return QString();
 }
 
-QString Login::submitLogin(const QString &phone, const QString &password) {
+QMap<QString, QString>  Login::submitLogin(const QString &phone, const QString &password) {
     QString userAgent = getRandomUserAgent();
     QMap<QString,QString> slideDict = getCode(userAgent);
     QString captcha = passSlide(slideDict["imgBase64"], userAgent);
@@ -251,7 +251,7 @@ QString Login::submitLogin(const QString &phone, const QString &password) {
     eventLoop.exec();
 
     // 解析响应
-    QString token;
+    QMap<QString, QString> userMap;
     if (reply->error() == QNetworkReply::NoError) {
         QByteArray response = reply->readAll();
         QJsonDocument jsonResponse = QJsonDocument::fromJson(response);
@@ -261,11 +261,12 @@ QString Login::submitLogin(const QString &phone, const QString &password) {
 
             if (responseObject["code"].toInt() == 1) {
                 QJsonObject userInfo = responseObject["data"].toObject()["userinfo"].toObject();
-                token = userInfo["token"].toString();
-                QString userId = userInfo["user_id"].toString();
+                QString token = userInfo["token"].toString();
+                int userId = userInfo["user_id"].toInt();
                 qDebug() << "登录成功, token:" << token << "user_id:" << userId;
                 reply->deleteLater();
-                return token;
+                userMap[phone] = token;
+                return userMap;
             } else {
                 qDebug() << "登录失败, 错误信息:" << responseObject["msg"].toString();
             }
@@ -275,9 +276,9 @@ QString Login::submitLogin(const QString &phone, const QString &password) {
     } else {
         qDebug() << "登录网络请求错误:" << reply->errorString();
     }
-    token = "null";
+    userMap[phone] = "null";
     reply->deleteLater();
-    return token;
+    return userMap;
 }
 Login::Login()
 {
